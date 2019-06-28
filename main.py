@@ -21,6 +21,6 @@ while True:
     gpustats = query_gpu()
     for index,gpu in enumerate(gpustats):
         if gpu["memory.free"] > limitmem and gpu["power.draw"]< limitpow:
-            subprocess.check_call(command+"-cuda "+str(index))
+            subprocess.check_call(command+" -cuda "+str(index))
             break
     time.sleep(time)
