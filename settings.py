@@ -1,5 +1,5 @@
 # set up the command to run
-command="ls -al"
+command="python ./test.py"
 # set up the time interval
 time = 1
 # set up the requirements
