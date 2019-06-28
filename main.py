@@ -23,4 +23,4 @@ while True:
         if gpu["memory.free"] > limitmem and gpu["power.draw"]< limitpow:
             subprocess.check_call(command+["-cuda",str(index)])
             break
-    time.sleep(time)
+    time.sleep(interval)
