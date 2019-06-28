@@ -9,7 +9,7 @@ args = parser.parse_args()
 
 device = torch.device("cpu" if args.cuda<0 else "cuda:"+str(args.cuda))
 
-t = torch.randn(10000).to(device)
+t = torch.randn(100).to(device)
 import time
 time.sleep(15)
 
