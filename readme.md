@@ -7,3 +7,5 @@ A python script that keeps an eye for a GPU for you.
 Change the content of `settings.py` according to your need.
 
 Then use `tmux` or `screen` to run `python main.py`.
+
+An example can be found in `test.py`
